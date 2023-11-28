@@ -4,6 +4,7 @@
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 [![Paper](http://img.shields.io/badge/Paper-arxiv.2311.15421-B31B1B.svg)](https://arxiv.org/abs/2311.15421)
+<a href='https://www.youtube.com/watch?v=CKX3GBrBv58'><img src='https://img.shields.io/badge/Youtube-Video-red'></a>
 <a href="https://dreamwireart.github.io/"><img alt="page" src="https://img.shields.io/badge/Webpage-0054a6?logo=Google%20chrome&logoColor=white"></a>
 [![Page Views Count](https://badges.toozhao.com/badges/01HG0WE973EGR8ENZCAEZR5G4G/green.svg)](https://badges.toozhao.com/stats/01HG0WE973EGR8ENZCAEZR5G4G "Get your own page views count badge on badges.toozhao.com")
 
