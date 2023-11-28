@@ -3,7 +3,7 @@
 # Wired Perspectives: Multi-View Wire Art <br> Embraces Generative AI
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-[![Paper](http://img.shields.io/badge/Paper-arxiv.2308.14191-B31B1B.svg)](https://drive.google.com/file/d/1F99UPYrNJ2-E7dENFIVhLYuzW-_05VwD/view?usp=sharing)
+[![Paper](http://img.shields.io/badge/Paper-arxiv.2311.15421-B31B1B.svg)](https://arxiv.org/abs/2311.15421)
 <a href="https://dreamwireart.github.io/"><img alt="page" src="https://img.shields.io/badge/Webpage-0054a6?logo=Google%20chrome&logoColor=white"></a>
 [![Page Views Count](https://badges.toozhao.com/badges/01HG0WE973EGR8ENZCAEZR5G4G/green.svg)](https://badges.toozhao.com/stats/01HG0WE973EGR8ENZCAEZR5G4G "Get your own page views count badge on badges.toozhao.com")
 
@@ -23,7 +23,7 @@ Creating multi-view wire art (MVWA), a static 3D sculpture with diverse interpre
 @article{qu2023dreamwire,
   title={Wired Perspectives: Multi-View Wire Art Embraces Generative AI},
   author={Qu, Zhiyu and Yang, Lan and Zhang, Honggang and Xiang, Tao and Pang, Kaiyue and Song, Yi-Zhe},
-  journal={arXiv:2012.10076},
+  journal={arXiv:2311.15421},
   year={2023}
 }
 ```
