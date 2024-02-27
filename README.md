@@ -22,11 +22,11 @@ Creating multi-view wire art (MVWA), a static 3D sculpture with diverse interpre
 ## Citation
 
 ```
-@article{qu2023dreamwire,
+@inproceedings{qu2023dreamwire,
   title={Wired Perspectives: Multi-View Wire Art Embraces Generative AI},
   author={Qu, Zhiyu and Yang, Lan and Zhang, Honggang and Xiang, Tao and Pang, Kaiyue and Song, Yi-Zhe},
-  journal={arXiv:2311.15421},
-  year={2023}
+  booktitle={CVPR},
+  year={2024}
 }
 ```
 
