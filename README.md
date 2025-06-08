@@ -11,9 +11,15 @@
 
 </div>
 
-[![▶️ Watch the video](https://github.com/WinKawaks/DreamWire/blob/main/figure/video.png)](https://youtu.be/8yCUGgnO4vY)
+## Video
 
-Creating multi-view wire art (MVWA), a static 3D sculpture with diverse interpretations from different viewpoints, is a complex task even for skilled artists. In response, we present *DreamWire*, an AI system enabling everyone to craft MVWA easily. Users express their vision through text prompts or scribbles, freeing them from intricate 3D wire organisation. Our approach synergises 3D Bézier curves, Prim's algorithm, and knowledge distillation from diffusion models or their variants (e.g., ControlNet). This blend enables the system to represent 3D wire art, ensuring spatial continuity and overcoming data scarcity. Extensive evaluation and analysis are conducted to shed insight on the inner workings of the proposed system, including the trade-off between connectivity and visual aesthetics. 
+Click to see our physical artwork!
+
+[![▶️ Watch the video](./figure/video.png)](https://youtu.be/8yCUGgnO4vY)
+
+## Abstract
+
+Creating multi-view wire art (MVWA), a static 3D sculpture with diverse interpretations from different viewpoints, is a complex task even for skilled artists. In response, we present *DreamWire*, an AI system enabling everyone to craft MVWA easily. Users express their vision through text prompts or scribbles, freeing them from intricate 3D wire organisation. This is the first AI solution for creating multi-view wire art.
 
 ![overview](figure/overview.png)
 
@@ -33,3 +39,17 @@ Creating multi-view wire art (MVWA), a static 3D sculpture with diverse interpre
 ```
 
 ## Code
+
+This work is based on [SketchDreamer](https://github.com/WinKawaks/SketchDreamer). Please follow the dependencies of SketchDreamer.
+
+Generate multi-view wire art by text prompts only, use | to split different prompts (recommended):
+
+```
+$python run_object_sketching.py --num_sketches 3 --num_segments 4 --num_strokes 64 --train_with_diffusion -display --num_aug_clip 1 --text_prompt 'a_simple_portrait_of_Isaac_Newton|a_simple_portrait_of_Albert_Einstein|a_simple_portrait_of_Alan_Turing' --output_name 'legend' --use_wandb 0
+```
+
+Generate multi-view wire art in hybrid mode, use 'white.png' for text only control:
+
+```
+$python run_object_sketching.py --num_sketches 3 --num_segments 4 --num_strokes 64 --train_with_diffusion -display --num_aug_clip 1 --text_prompt 'a_simple_portrait_of_Sherlock_Homles|a_simple_portrait_of_Dr._John_Watson|a_simple_portrait_of_London_Tower_Bridge' --output_name 'detective' --use_wandb 0 --control --sketches_edit './edgemaps/sherlock.png|./edgemaps/white.png|./edgemaps/white.png'
+```
