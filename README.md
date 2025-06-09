@@ -48,7 +48,7 @@ Generate multi-view wire art by text prompts only, use | to split different prom
 $python run_object_sketching.py --num_sketches 3 --num_segments 4 --num_strokes 64 --train_with_diffusion -display --num_aug_clip 1 --text_prompt 'a_simple_portrait_of_Isaac_Newton|a_simple_portrait_of_Albert_Einstein|a_simple_portrait_of_Alan_Turing' --output_name 'legend' --use_wandb 0
 ```
 
-Generate multi-view wire art in hybrid mode, use the "white.png" for text only control:
+Generate multi-view wire art in hybrid mode, use the `white.png` for text only control:
 
 ```
 $python run_object_sketching.py --num_sketches 3 --num_segments 4 --num_strokes 64 --train_with_diffusion -display --num_aug_clip 1 --text_prompt 'a_simple_portrait_of_Sherlock_Homles|a_simple_portrait_of_Dr._John_Watson|a_simple_portrait_of_London_Tower_Bridge' --output_name 'detective' --use_wandb 0 --control --sketches_edit './edgemaps/sherlock.png|./edgemaps/white.png|./edgemaps/white.png'
