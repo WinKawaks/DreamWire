@@ -7,7 +7,6 @@
 [![Conference](http://img.shields.io/badge/CVPR-2024-6790AC.svg)](https://cvpr.thecvf.com/)
 <a href='https://www.youtube.com/watch?v=CKX3GBrBv58'><img src='https://img.shields.io/badge/Youtube-Video-red'></a>
 <a href="https://dreamwireart.github.io/"><img alt="page" src="https://img.shields.io/badge/Webpage-0054a6?logo=Google%20chrome&logoColor=white"></a>
-[![Page Views Count](https://badges.toozhao.com/badges/01HG0WE973EGR8ENZCAEZR5G4G/green.svg)](https://badges.toozhao.com/stats/01HG0WE973EGR8ENZCAEZR5G4G "Get your own page views count badge on badges.toozhao.com")
 
 </div>
 
